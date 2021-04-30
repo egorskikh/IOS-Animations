@@ -55,9 +55,9 @@ struct ContentView : View {
                 .fill(self.zoomed ? Color.clear : Color(red: 1.0, green: 1.0, blue: 1.0, opacity: 0.4))
                 .scaleEffect(0.8)
             )
-            .rotationEffect(self.zoomed ? Angle(degrees: 0) : Angle(degrees: 90))
+            .rotationEffect(self.zoomed ? Angle(degrees: 0) : Angle(degrees: 90)) // challenges
             .position(x: self.zoomed ? geometry.frame(in: .local).midX : 600,
-                      y: 50)
+                      y: 50) // challenges
             .saturation(self.zoomed ? 1 : 0)
             .scaleEffect(self.zoomed ? 1.33 : 0.33)
             .shadow(radius: 10)
