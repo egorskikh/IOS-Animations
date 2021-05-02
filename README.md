@@ -7,13 +7,13 @@ By Marin Todorov.
 ### Section 1
 | Animations with SwiftUI | Animation | 
 | ------------- | ------------- | 
-| Chapter 1: Introduction to Animations with SwiftUI | ![1](https://user-images.githubusercontent.com/60622982/116818663-401b8200-ab75-11eb-8225-ae41b5626494.gif)| 
-| Chapter 2: Intermediate SwiftUI Animations | ![3](https://user-images.githubusercontent.com/60622982/116818778-c3d56e80-ab75-11eb-870c-8f0a520e6d2e.gif) |
+| [ Chapter 1: Introduction to Animations with SwiftUI ](https://github.com/egorskikh/iOS-Animations/tree/main/1.%20Animations%20with%20SwiftUI/1.%20Animations%20with%20SwiftUI/starter) | ![1](https://user-images.githubusercontent.com/60622982/116818663-401b8200-ab75-11eb-8225-ae41b5626494.gif)| 
+| [ Chapter 2: Intermediate SwiftUI Animations ](https://github.com/egorskikh/iOS-Animations/tree/main/1.%20Animations%20with%20SwiftUI/2.%20Intermediate%20SwiftUI%20Animations/starter) | ![3](https://user-images.githubusercontent.com/60622982/116818778-c3d56e80-ab75-11eb-870c-8f0a520e6d2e.gif) |
 
 ### Section 2
 | View Animations  | Animation | 
 | ------------- | ------------- | 
-| Chapter 3: Getting Started with View Animations | ![гиф3](https://user-images.githubusercontent.com/60622982/116818340-95569400-ab73-11eb-8fee-a9ff0c85e073.gif) | 
+| [ Chapter 3: Getting Started with View Animations ](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/3.%20Getting%20Started%20with%20View%20Animations/starter) | ![гиф3](https://user-images.githubusercontent.com/60622982/116818340-95569400-ab73-11eb-8fee-a9ff0c85e073.gif) | 
 | - | - |
 | - | - | 
 | - | - |
