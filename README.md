@@ -14,7 +14,7 @@ By Marin Todorov.
 | View Animations  | Animation | 
 | ------------- | ------------- | 
 | [ Chapter 3: Getting Started with View Animations ](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/3.%20Getting%20Started%20with%20View%20Animations/starter) | ![гиф3](https://user-images.githubusercontent.com/60622982/116818340-95569400-ab73-11eb-8fee-a9ff0c85e073.gif) | 
-| [ Chapter 4. Springs ](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/4.%20Springs/starter) | ![4](https://user-images.githubusercontent.com/60622982/116897722-46c1fc00-ac3e-11eb-8865-1d815518e798.gif) |
+| [ Chapter 4: Springs ](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/4.%20Springs/starter) | ![4](https://user-images.githubusercontent.com/60622982/116897722-46c1fc00-ac3e-11eb-8865-1d815518e798.gif) |
 | - | - | 
 | - | - |
 | - | - | 
