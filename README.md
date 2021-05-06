@@ -17,7 +17,7 @@ By Marin Todorov.
 | [ Chapter 4: Springs ](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/4.%20Springs/starter) | ![4](https://user-images.githubusercontent.com/60622982/116911011-0159fa80-ac4f-11eb-8166-56d6b71659b5.gif) |
 | [ Chapter 5: Transitions](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/5.%20Transitions/starter) | ![5](https://user-images.githubusercontent.com/60622982/116919333-cad5ad00-ac59-11eb-9e0c-3bdf75fd26bf.gif) | 
 | [ 6. View Animations in Practice ](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/6.%20View%20Animations%20in%20Practice/starter) | ![6](https://user-images.githubusercontent.com/60622982/117006994-c3fa7900-acf1-11eb-90d9-fc4230738009.gif) |
-| [ 7. Keyframe Animations ](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/7.%20Keyframe%20Animations/starter) | - | 
+| [ 7. Keyframe Animations ](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/7.%20Keyframe%20Animations/starter) | ![7](https://user-images.githubusercontent.com/60622982/117275546-d0541280-ae66-11eb-90c3-b945b0f0e2b1.gif) | 
 
 
 ### Section 3
