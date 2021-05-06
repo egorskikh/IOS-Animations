@@ -24,7 +24,7 @@ By Marin Todorov.
 | Auto Layout | Animation | 
 | ------------- | ------------- | 
 | [ Chapter 8: Introduction to Auto Layout ](https://github.com/egorskikh/iOS-Animations/tree/main/3.%20Auto%20Layout/8.%20Introduction%20to%20Auto%20Layout/starter) | - | 
-| - | - |
+| [Chapter 9: ](https://github.com/egorskikh/iOS-Animations/tree/main/3.%20Auto%20Layout/9.%20Animating%20Constraints/starter) | ![9](https://user-images.githubusercontent.com/60622982/117306842-b62b2c00-ae88-11eb-81cf-c1533e341527.gif) |
 
 ### Section 4
 | Layer Animations  | Animation | 
