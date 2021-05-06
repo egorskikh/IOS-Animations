@@ -42,6 +42,7 @@ class HorizontalItemList: UIScrollView {
   }
   
   convenience init(inView: UIView) {
+    
     let rect = CGRect(x: inView.bounds.width, y: 120.0, width: inView.frame.width, height: 80.0)
     self.init(frame: rect)
     
