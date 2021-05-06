@@ -23,7 +23,7 @@ By Marin Todorov.
 ### Section 3
 | Auto Layout | Animation | 
 | ------------- | ------------- | 
-| - | - | 
+| [ Chapter 8: Introduction to Auto Layout ](https://github.com/egorskikh/iOS-Animations/tree/main/3.%20Auto%20Layout/8.%20Introduction%20to%20Auto%20Layout/starter) | - | 
 | - | - |
 
 ### Section 4
