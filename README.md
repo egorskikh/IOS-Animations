@@ -10,7 +10,7 @@
 | ------------- | ------------- | 
 | [ Chapter 1: Introduction to Animations with SwiftUI ](https://github.com/egorskikh/IOS-Animations#introduction-to-animations-with-swiftui) | ![1](https://user-images.githubusercontent.com/60622982/116818663-401b8200-ab75-11eb-8225-ae41b5626494.gif)| 
 | [ Chapter 2: Intermediate SwiftUI Animations ](https://github.com/egorskikh/IOS-Animations#intermediate-swiftui-animations) | ![3](https://user-images.githubusercontent.com/60622982/116818778-c3d56e80-ab75-11eb-870c-8f0a520e6d2e.gif) |
-<br> </br>
+
 ## Section 2
 | View Animations  | Animation | 
 | ------------- | ------------- | 
@@ -19,7 +19,6 @@
 | [ Chapter 5: Transitions](https://github.com/egorskikh/IOS-Animations#transitions) | ![5](https://user-images.githubusercontent.com/60622982/116919333-cad5ad00-ac59-11eb-9e0c-3bdf75fd26bf.gif) | 
 | [ Chapter 6: View Animations in Practice ](https://github.com/egorskikh/IOS-Animations#view-animations-in-practice) | ![6](https://user-images.githubusercontent.com/60622982/117006994-c3fa7900-acf1-11eb-90d9-fc4230738009.gif) |
 | [ Chapter 7: Keyframe Animations ](https://github.com/egorskikh/IOS-Animations#keyframe-animations) | ![7](https://user-images.githubusercontent.com/60622982/117275546-d0541280-ae66-11eb-90c3-b945b0f0e2b1.gif) | 
-<br> </br>
 
 ## Section 3
 | Auto Layout | Animation | 
@@ -38,14 +37,14 @@
 | - | - |
 | - | - | 
 | - | - |
-<br> </br><br> </br>
+
 ## Section 5
 | View Controller Transition Animations | Animation | 
 | ------------- | ------------- | 
 | - | - | 
 | - | - |
 | - | - | 
-<br> </br>
+
 ## Section 6
 | Animations with UIViewPropertyAnimator  | Animation | 
 | ------------- | ------------- | 
@@ -53,13 +52,13 @@
 | - | - |
 | - | - | 
 | - | - |
-<br> </br>
+
 ## Section 7
 | 3D Animations  | Animation | 
 | ------------- | ------------- | 
 | - | - | 
 | - | - |
-<br> </br>
+
 
 <p align='center'>
 Table of Contents: Extended
