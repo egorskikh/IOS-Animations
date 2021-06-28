@@ -1,9 +1,10 @@
 # iOS-Animations
-<br> </br>
+
 <p align='center'>
-Table of Contents: Overview
+  Table of Contents: Overview
 <p align='center'>
 </p>
+
 ## Section 1
 | Animations with SwiftUI | Animation | 
 | ------------- | ------------- | 
@@ -64,6 +65,138 @@ Table of Contents: Extended
 <p align='center'>
 </p>
 
-## **Binary Trees**
+## **Introduction to Animations with SwiftUI**
+### Key points
+- SwiftUI позволяет декларативно создавать пользовательский интерфейс и запрашивать анимацию любых изменений между «снимками» иерархии представлений.
+- Вы добавляете анимацию с помощью модификатора .animation(_) в свои представления. В качестве параметра можно указать стандартную или настраиваемую анимацию.
+- Вы анимируете различные модификаторы представления посредством изменения свойств состояния представления, которые запускают новый снимок и просят SwiftUI выполнить интерполяцию между предыдущим и текущим макетом.
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/1.%20Animations%20with%20SwiftUI/1.%20Animations%20with%20SwiftUI/starter)
+<br> </br>
+## **Intermediate SwiftUI Animations**
+### Key points
+- Фигуры в SwiftUI придерживаются протокола просмотра, поэтому вы можете создавать интригующие анимации, включая преобразование, постепенное появление и исчезновение и морфинг фигур, точно так же, как вы делаете для любой другой анимации в своем пользовательском интерфейсе.
+- Вы можете добавить больше состояний к вашим типам представлений, чтобы иметь возможность управлять более сложной, потенциально многоступенчатой ​​анимацией.
+- Включение ввода с помощью жестов в состояние просмотра - это вопрос добавления нескольких дополнительных модификаторов к вашим представлениям, поэтому создание интерактивной анимации пользователя - это совсем несложно.
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/1.%20Animations%20with%20SwiftUI/2.%20Intermediate%20SwiftUI%20Animations/starter)
+<br> </br>
+
+## **Getting Started with View Animations**
+### Key points
+- Вы создаете анимацию, используя один из вариантов UIView.animate (...).
+- В закрытии анимации вы устанавливаете конечное состояние желаемой анимации, и UIKit автоматически создает плавную анимацию между текущим и конечным состояниями.
+- Вы настраиваете свою анимацию, предоставляя значения UIView.AnimationOptions для установки свойств замедления, повторения и авторевертирования.
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/3.%20Getting%20Started%20with%20View%20Animations/starter)
+<br> </br>
+## **Springs**
+### Key points
+- Вы можете создавать визуальную обратную связь для взаимодействия с пользователем, создавая анимацию в ответ на действия пользователя.
+- Вы создаете анимацию пружины аналогично «стандартной» анимации - дополнительными параметрами являются демпфирование пружины и начальная скорость.
+- Комбинирование различных анимаций (с пружинами или без) создает богатые визуальные впечатления.
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/4.%20Springs/starter)
+<br> </br>
+## **Transitions**
+### Key points
+- Apple предоставляет набор предопределенных анимаций, называемых переходами, которые можно использовать для обработки особых изменений в состоянии пользовательского интерфейса вашего приложения.
+- Переходы нацелены на добавление, удаление и замену представлений в иерархии представлений.
+- При разработке анимации вы можете включить **Debug ▸ Toggle Slow Animations** в симуляторе, чтобы иметь возможность наблюдать за ними в замедленном движении.
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/5.%20Transitions/starter)
+<br> </br>
+## **View Animations in Practice**
+### Key points
+- Вы не ограничены анимацией отдельного свойства представления из одного вызова анимации; вы можете свободно комбинировать и перекрывать анимации.
+- Для создания сложных эффектов вы можете использовать любые без исключения «трюки», которые, как вам кажется, требует текущая задача, включая создание временных представлений на время анимации.
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/6.%20View%20Animations%20in%20Practice/starter)
+<br> </br>
+## **Keyframe Animations**
+### Key points
+- Вы можете «связать» анимации, используя ключевые кадры, намного проще, чем использование завершения в стандартных API для создания последовательностей.
+- Анимация по ключевым кадрам позволяет не только «связывать» анимации, но также «перекрывать» их и группировать их в целом любым удобным для вас способом.
+- Не забывайте, что все значения синхронизации ключевых кадров относятся к полной анимации, тогда как API, определяющий полную последовательность, использует абсолютное время.
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/2.%20View%20Animations/7.%20Keyframe%20Animations/starter)
+<br> </br>
+
+## **Introduction to Auto Layout**
+### Key points
+- С помощью Auto Layout вы не устанавливаете положение и размер ваших представлений в абсолютных значениях, а выражаете их относительно размера экрана или других представлений в иерархии представлений.
+- Вы создаете новые ограничения между видами, перетаскивая их между ними, удерживая клавишу Ctrl, а затем выбирая тип ограничения во всплывающем меню.
+- Как только для вида установлены ограничения (полностью определяющие его положение и размер), оно будет автоматически размещено на экране любого размера с помощью Auto Layout.
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/3.%20Auto%20Layout/8.%20Introduction%20to%20Auto%20Layout/starter)
+<br> </br>
+## **Animating Constraints**
+### Key points
+- [example](https://github.com/egorskikh/iOS-Animations/tree/main/3.%20Auto%20Layout/9.%20Animating%20Constraints/starter)
+<br> </br>
+
+## **Getting Started with Layer Animations**
 ### Key points
 <br> </br>
+## **Animation Keys & Delegates**
+### Key points
+<br> </br>
+## **Groups & Advanced Timing**
+### Key points
+<br> </br>
+## **Layer Springs**
+### Key points
+<br> </br>
+## **Layer Keyframe Animations & Struct Properties**
+### Key points
+<br> </br>
+## **Shapes & Masks**
+### Key points
+<br> </br>
+## **Gradient Animations**
+### Key points
+<br> </br>
+## **Stroke & Path Animations**
+### Key points
+<br> </br>
+## **Replicating Animations**
+### Key points
+<br> </br>
+## **Presentation Controller & Orientation Animations**
+### Key points
+<br> </br>
+## **UINavigationController Custom Transition Animations**
+### Key points
+<br> </br>
+## **Interactive UINavigationController Transitions**
+### Key points
+<br> </br>
+## **Getting Started with UIViewPropertyAnimator**
+### Key points
+<br> </br>
+## **Intermediate Animations with UIViewPropertyAnimator**
+### Key points
+<br> </br>
+## **Interactive Animations with UIViewPropertyAnimator**
+### Key points
+<br> </br>
+## **UIViewPropertyAnimator View Controller Transitions**
+### Key points
+<br> </br>
+## **Simple 3D Animations**
+### Key points
+<br> </br>
+## **Intermediate 3D Animations**
+### Key points
+<br> </br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
