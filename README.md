@@ -24,12 +24,12 @@
 | Auto Layout | Animation | 
 | ------------- | ------------- | 
 | [ Chapter 8: Introduction to Auto Layout ](https://github.com/egorskikh/IOS-Animations#introduction-to-auto-layout) | - | 
-| [Chapter 9: Animating Constraints ](https://github.com/egorskikh/IOS-Animations#animating-constraints) | ![9](https://user-images.githubusercontent.com/60622982/117306842-b62b2c00-ae88-11eb-81cf-c1533e341527.gif) |
+| [ Chapter 9: Animating Constraints ](https://github.com/egorskikh/IOS-Animations#animating-constraints) | ![9](https://user-images.githubusercontent.com/60622982/117306842-b62b2c00-ae88-11eb-81cf-c1533e341527.gif) |
 
 ## Section 4
 | Layer Animations  | Animation | 
 | ------------- | ------------- | 
-| - | - | 
+| [ Chapter 10: Getting Started with Layer Animations ](https://github.com/egorskikh/IOS-Animations#getting-started-with-layer-animations) | ![2021-06-30 15 17 36](https://user-images.githubusercontent.com/60622982/123959520-f0abd380-d9b6-11eb-8482-f5db3f13b680.gif) | 
 | - | - |
 | - | - | 
 | - | - |
@@ -129,6 +129,10 @@ Table of Contents: Extended
 
 ## **Getting Started with Layer Animations**
 ### Key points
+- Слоистая анимация дает вам больше возможностей, когда дело доходит до создания анимации пользовательского интерфейса. В отличие от анимации вида, вы можете анимировать множество дополнительных функций, таких как радиус угла, тень, ширину и цвет границы, стиль границы и многое другое.
+- CABasicAnimation - это базовый класс модели анимации, который вы используете для описания желаемой анимации, которую вы передаете для визуализации, вызывая CALayer.add (_, forKey :).
+- Поскольку анимация слоев - это модели данных, которые копируются Core Animation при добавлении к слою, вы можете повторно использовать один и тот же экземпляр модели для создания ряда похожих анимаций и даже настраивать некоторые из его свойств между добавлением его в разные слои.
+- [example](https://github.com/egorskikh/IOS-Animations/blob/main/4.%20Layer%20Animations/10.%20Getting%20Started%20with%20Layer%20Animations/starter/BahamaAirLoginScreen/ViewController.swift)
 <br> </br>
 ## **Animation Keys & Delegates**
 ### Key points
